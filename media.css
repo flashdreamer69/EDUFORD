@@ -1,0 +1,115 @@
+@media (max-width: 900px) {
+
+   .header-inner {
+      padding-left: 50px;
+      padding-right: 50px;
+   }
+
+   .text-block h1 {
+      font-size: 20px;
+   }
+
+   .header-nav {
+      position: absolute;
+      display: block;
+      width: 200px;
+      height: 100vh;
+      background-color: red;
+      color: white;
+      top:0;
+      right: -200px;
+      text-align: left;
+      z-index: 2;
+      transition: 1s;
+      
+   }
+
+   .header-nav a {
+      padding: 35px;
+   }
+
+   .header-nav .fa {
+      display: block;
+      color: white;
+      font-size: 32px;
+      margin: 10px;
+   }
+
+   .fa-bars {
+      display: block;
+      color: white;
+      font-size: 32px;
+      margin: 10px;
+   }
+
+   .header-nav a:hover::after {
+      width: 0%;
+   }
+
+}
+
+@media (max-width: 700px) {
+
+   .header-inner {
+      padding-left: 30px;
+      padding-right: 30px;
+   }
+
+   .text-block {
+      padding: 0 15px;
+   }
+   .courses-inner {
+      flex-direction: column;
+   }
+
+   .courses-inner__item {
+      width: 100%;
+   }
+
+   .campus-inner {
+      flex-direction: column;
+   }
+
+   .campus-pic {
+      width: 100%;
+      margin-bottom: 20px;
+   }
+
+   .facilities-inner {
+      flex-direction: column;
+   }
+
+   .facilities-card {
+      margin: 0 auto;
+      width: 80%;
+      margin-bottom: 20px;
+   }
+
+   .review-wrapper {
+      flex-direction: column;
+   }
+
+   .review-item {
+      width: 100%;
+      margin-bottom: 30px;
+      text-align: center;
+   }
+
+   .user-review__block {
+      flex-direction: column;
+   }
+
+   .user-review__block img {
+      display: block;
+      margin: 0 auto;
+   }
+
+   .review__text {
+      margin-top: 20px;
+   }
+
+   .contact-block h3 {
+      font-size: 24px;
+      max-width: 400px;
+   }
+}
